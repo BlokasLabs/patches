@@ -1,2 +1,2 @@
 ## Work-In-Progress Patches
-Here goes untested or unfinished patches
+Untested or unfinished patches should be placed in this folder
