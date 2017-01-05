@@ -1,3 +1,10 @@
+## Contribution Guide
+Your new patches should go into the "workinprogress" folder. After all of the Pd Patching Guide for pisound requirements are met we will test the patches and move them to the "readytogo" folder.
+
+If you are looking for ideas for new patches, you can take a look at the "watinginline" folder and pick some patches to port from there. In that case don't forget to move them into the "workinprogress" folder.
+
+That’s it. Happy patching! 
+
 ## Pd Patching Guide for pisound
 
 - Patches should be made with Pd-vanilla, preferably using version 0.46.2, as found on raspbian apt-get, without the use of additional libraries or externals;
