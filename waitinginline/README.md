@@ -1,2 +1,2 @@
 ## Waiting-In-Line Patches
-Here goes patches waiting to be ported for use with pisound
+Patches waiting to be ported for use with pisound should be placed in this folder
