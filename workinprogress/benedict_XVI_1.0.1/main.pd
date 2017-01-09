@@ -1,0 +1,29 @@
+#N canvas 652 70 651 348 10;
+#X obj 20 322 dac~;
+#X obj 22 52 benedict_XVI;
+#N canvas 1262 167 450 300 midi 1;
+#X text 31 39 setting are mapped as follow :;
+#X text 28 232 these values can be set in [pd init_and_midi];
+#X text 30 91 CH1 notein notes;
+#X text 30 111 CH1 CC1 piety;
+#X text 30 131 CH1 CC2 holyness;
+#X text 30 151 CH1 CC3 modulation;
+#X text 30 171 CH1 CC4 rate;
+#X text 31 191 CH1 CC5 volume;
+#X restore 327 235 pd midi controls;
+#X text 196 89 settings :;
+#X text 210 118 - piety and holyness set the filter's fequency and
+resonance;
+#X text 210 145 - modulation adds a mix of vibrato and tremolo for
+a 60's vibe;
+#X text 210 185 - rate sets the lfo speed;
+#X text 196 10 8 voices church organ made using 4 oscillators (1 triangle
+and 4 anti-aliased pulse wave with duty cycle at 17%);
+#X text 196 56 left inlet accepts midi notes (midi number + velocity)
+;
+#X text 221 267 contact : jnoe@hotmail.fr;
+#X obj 21 13 notein 1;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
+#X connect 10 0 1 0;
+#X connect 10 1 1 1;

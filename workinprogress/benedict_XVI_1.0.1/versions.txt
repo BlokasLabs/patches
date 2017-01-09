@@ -1,0 +1,5 @@
+1.0 first release
+
+1.0.1
+fixes
+transition table for anti-aliased oscillators now created properly when dsp already on

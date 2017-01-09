@@ -1,0 +1,32 @@
+#N canvas 565 66 631 460 10;
+#X obj 25 386 *~;
+#X obj 176 388 *~;
+#X obj 197 357 hsl 128 15 0 1 0 0 empty volume volume -2 -8 0 10 -262144
+-1 -1 12700 1;
+#X obj 82 429 dac~;
+#N canvas 955 231 450 300 midi 1;
+#X text 30 112 CH1 CC1 rate;
+#X text 30 132 CH1 CC2 depth;
+#X text 30 152 CH1 CC3 tone;
+#X text 30 172 CH1 CC4 intensity;
+#X text 30 192 CH1 CC5 stereo-panning;
+#X text 31 39 setting are mapped as follow :;
+#X text 28 232 these values can be set in [pd init_and_midi];
+#X text 30 72 CH1 note1 on/off;
+#X text 30 92 CH1 note2 mode;
+#X restore 202 268 pd midi controls;
+#X text 193 125 coontrols are rather obvious if you have already used
+a flanger \, if you don't just move the sliders \, you should hear
+differents kinds of wooooooooooooooooooooosh;
+#X text 192 95 flanger with mono input and stereo output;
+#X obj 24 82 flangers;
+#X text 198 193 contact : jnoe@hotmail.fr;
+#X obj 25 14 adc~;
+#X connect 0 0 3 0;
+#X connect 1 0 3 1;
+#X connect 2 0 1 1;
+#X connect 2 0 0 1;
+#X connect 7 0 0 0;
+#X connect 7 1 1 0;
+#X connect 9 0 7 0;
+#X connect 9 1 7 0;

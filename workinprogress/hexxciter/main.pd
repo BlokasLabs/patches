@@ -1,0 +1,10 @@
+#N canvas 1912 50 1920 997 10;
+#X obj 206 210 hexxciter;
+#X obj 563 216 midi-ctrl;
+#X obj 206 173 adc~;
+#X obj 207 563 dac~;
+#X connect 0 0 3 0;
+#X connect 0 1 3 1;
+#X connect 2 0 0 0;
+#X connect 2 1 0 0;
+#X coords 0 997 1 996 200 200 0;
