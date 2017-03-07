@@ -15,3 +15,4 @@ That’s it. Happy patching!
 - Every variable name should start with $ sign to prevent possible conflicts when using multiple instances of the same patch;
 - The main patch file should be called main.pd and consist of adc~, dac~ (depending on patch specifics) and main abstraction canvas containing patch controls;
 - No combination of parameter values should result in clipping;
+- Patches using adc~ object should include DRY/WET parameter;
